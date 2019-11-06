@@ -36,6 +36,9 @@
             this.textResultado = new System.Windows.Forms.TextBox();
             this.btmSumar = new System.Windows.Forms.Button();
             this.btmCerrar = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -82,7 +85,7 @@
             // 
             // textResultado
             // 
-            this.textResultado.Location = new System.Drawing.Point(218, 169);
+            this.textResultado.Location = new System.Drawing.Point(218, 162);
             this.textResultado.Name = "textResultado";
             this.textResultado.Size = new System.Drawing.Size(106, 20);
             this.textResultado.TabIndex = 5;
@@ -90,7 +93,7 @@
             // 
             // btmSumar
             // 
-            this.btmSumar.Location = new System.Drawing.Point(102, 237);
+            this.btmSumar.Location = new System.Drawing.Point(410, 37);
             this.btmSumar.Name = "btmSumar";
             this.btmSumar.Size = new System.Drawing.Size(88, 23);
             this.btmSumar.TabIndex = 6;
@@ -108,11 +111,42 @@
             this.btmCerrar.UseVisualStyleBackColor = true;
             this.btmCerrar.Click += new System.EventHandler(this.btmCerrar_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(410, 159);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(88, 23);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "divion";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(410, 116);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(88, 23);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "multiplicacion";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(410, 78);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(88, 23);
+            this.button4.TabIndex = 11;
+            this.button4.Text = "restar";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.btmCerrar);
             this.Controls.Add(this.btmSumar);
             this.Controls.Add(this.textResultado);
@@ -138,6 +172,9 @@
         private System.Windows.Forms.TextBox textResultado;
         private System.Windows.Forms.Button btmSumar;
         private System.Windows.Forms.Button btmCerrar;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
 

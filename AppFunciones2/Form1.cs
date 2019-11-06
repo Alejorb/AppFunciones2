@@ -46,5 +46,20 @@ namespace AppFunciones2
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int num1 = Int32.Parse(this.textNum1.Text.ToString());
+            int num2 = Int32.Parse(this.textNum2.Text.ToString());
+            int suma = fnsuma(num1, num2);
+
+            //asigno el resultado al cuadro de texto
+            this.textResultado.Text = suma.ToString();
+        }
+        int fnsuma(int a, int b)
+        {
+            return (a + b);
+        }
+    }
     }
 }
