@@ -16,5 +16,24 @@ namespace AppFunciones2
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private int fnsuma(int a, int b)
+        {
+            return (a + b);
+        }
     }
 }
