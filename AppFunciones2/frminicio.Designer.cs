@@ -55,9 +55,9 @@
             // 
             // btmNuevo
             // 
-            this.btmNuevo.Location = new System.Drawing.Point(539, 112);
+            this.btmNuevo.Location = new System.Drawing.Point(537, 112);
             this.btmNuevo.Name = "btmNuevo";
-            this.btmNuevo.Size = new System.Drawing.Size(92, 22);
+            this.btmNuevo.Size = new System.Drawing.Size(95, 22);
             this.btmNuevo.TabIndex = 1;
             this.btmNuevo.Text = "Nuevo";
             this.btmNuevo.UseVisualStyleBackColor = true;
@@ -67,21 +67,21 @@
             // 
             this.txtA.Location = new System.Drawing.Point(254, 39);
             this.txtA.Name = "txtA";
-            this.txtA.Size = new System.Drawing.Size(140, 20);
+            this.txtA.Size = new System.Drawing.Size(141, 20);
             this.txtA.TabIndex = 2;
             // 
             // txtB
             // 
-            this.txtB.Location = new System.Drawing.Point(256, 75);
+            this.txtB.Location = new System.Drawing.Point(254, 75);
             this.txtB.Name = "txtB";
-            this.txtB.Size = new System.Drawing.Size(138, 20);
+            this.txtB.Size = new System.Drawing.Size(141, 20);
             this.txtB.TabIndex = 3;
             // 
             // txtC
             // 
             this.txtC.Location = new System.Drawing.Point(255, 114);
             this.txtC.Name = "txtC";
-            this.txtC.Size = new System.Drawing.Size(138, 20);
+            this.txtC.Size = new System.Drawing.Size(140, 20);
             this.txtC.TabIndex = 4;
             // 
             // txtX1
@@ -89,7 +89,7 @@
             this.txtX1.Location = new System.Drawing.Point(255, 155);
             this.txtX1.Name = "txtX1";
             this.txtX1.ReadOnly = true;
-            this.txtX1.Size = new System.Drawing.Size(135, 20);
+            this.txtX1.Size = new System.Drawing.Size(140, 20);
             this.txtX1.TabIndex = 5;
             // 
             // txtX2
@@ -151,9 +151,9 @@
             // 
             // btmSalir
             // 
-            this.btmSalir.Location = new System.Drawing.Point(545, 167);
+            this.btmSalir.Location = new System.Drawing.Point(537, 167);
             this.btmSalir.Name = "btmSalir";
-            this.btmSalir.Size = new System.Drawing.Size(87, 23);
+            this.btmSalir.Size = new System.Drawing.Size(95, 23);
             this.btmSalir.TabIndex = 17;
             this.btmSalir.Text = "Salir";
             this.btmSalir.UseVisualStyleBackColor = true;

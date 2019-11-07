@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConversorDeGrados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConversorDeGrados.Designer.cs">
+      <DependentUpon>ConversorDeGrados.cs</DependentUpon>
+    </Compile>
     <Compile Include="frminicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ConversorDeGrados.resx">
+      <DependentUpon>ConversorDeGrados.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frminicio.resx">
       <DependentUpon>frminicio.cs</DependentUpon>
     </EmbeddedResource>
