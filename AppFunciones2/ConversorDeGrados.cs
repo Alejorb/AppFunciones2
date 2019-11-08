@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AppFunciones2
 {
-    public partial class ConversorDeGrados : Form
+    public partial class ConvertidorDeGrados : Form
     {
-        public ConversorDeGrados()
+        public ConvertidorDeGrados()
         {
             InitializeComponent();
         }
@@ -23,12 +23,12 @@ namespace AppFunciones2
         }
 
         //crear un mètodo
-        private double conversor(double C)
+        private double conversor(double c)
         {
             //declarar variable
-            double c = 0, f = 0;
+            double f = 0;
             //calcular
-            f = ((9 * c) / 5) + 32;
+            f = ((9 * c) / (5)) + 32;
             return f;
         }
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -51,7 +51,7 @@ namespace AppFunciones2
 
         private void btmconvertir_Click(object sender, EventArgs e)
         {
-            //llamada a la funsión conversor
+            //llamada a la funsión convertidor
             double c = 0;
             //validar si el usuario a ingresado valores
             if (this.txtC.Text.Length == 0)

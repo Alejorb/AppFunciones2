@@ -16,7 +16,7 @@ namespace AppFunciones2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frminicio());
+            Application.Run(new ConvertidorDeGrados());
         }
     }
 }

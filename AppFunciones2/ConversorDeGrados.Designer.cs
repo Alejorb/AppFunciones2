@@ -1,6 +1,6 @@
 ﻿namespace AppFunciones2
 {
-    partial class ConversorDeGrados
+    partial class ConvertidorDeGrados
     {
         /// <summary>
         /// Required designer variable.
@@ -99,7 +99,7 @@
             this.txtF.Size = new System.Drawing.Size(188, 20);
             this.txtF.TabIndex = 7;
             // 
-            // ConversorDeGrados
+            // ConvertidorDeGrados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -111,8 +111,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtC);
             this.Controls.Add(this.btmconvertir);
-            this.Name = "ConversorDeGrados";
-            this.Text = "ConversorDeGrados";
+            this.Name = "ConvertidorDeGrados";
+            this.Text = "ConvertidorDeGrados";
             this.Load += new System.EventHandler(this.ConversorDeGrados_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
