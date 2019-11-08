@@ -22,6 +22,15 @@ namespace AppFunciones2
 
         }
 
+        //crear un mètodo
+        private double conversor(double C)
+        {
+            //declarar variable
+            double c = 0, f = 0;
+            //calcular
+            f = ((9 * c) / 5) + 32;
+            return f;
+        }
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
@@ -42,7 +51,19 @@ namespace AppFunciones2
 
         private void btmconvertir_Click(object sender, EventArgs e)
         {
-
+            //llamada a la funsión conversor
+            double c = 0;
+            //validar si el usuario a ingresado valores
+            if (this.txtC.Text.Length == 0)
+            {
+                MessageBox.Show("Por favor ingrese el valor que desea convertir...");
+                this.txtC.Focus();//ubica el cursor en el cuadro
+                return;//abandonar
+            }
+            c = Double.Parse(this.txtC.Text);
+            double f = conversor(c);
+            //asigno el valor de f a tctF
+            this.txtF.Text = f.ToString();
         }
     }
 }

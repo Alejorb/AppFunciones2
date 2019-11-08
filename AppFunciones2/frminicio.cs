@@ -21,7 +21,6 @@ namespace AppFunciones2
         {
             //este evento
             //se ejecuta cada vez que se habre el formulario
-            //formulario
 
             //establecer el control txtX2 de solo
             //lectura
@@ -143,6 +142,21 @@ namespace AppFunciones2
             this.txtA.Focus();
 
 
+
+        }
+
+        private void txtA_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtX1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtB_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

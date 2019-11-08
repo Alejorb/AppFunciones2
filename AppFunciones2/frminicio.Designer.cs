@@ -69,6 +69,7 @@
             this.txtA.Name = "txtA";
             this.txtA.Size = new System.Drawing.Size(141, 20);
             this.txtA.TabIndex = 2;
+            this.txtA.TextChanged += new System.EventHandler(this.txtA_TextChanged);
             // 
             // txtB
             // 
@@ -76,6 +77,7 @@
             this.txtB.Name = "txtB";
             this.txtB.Size = new System.Drawing.Size(141, 20);
             this.txtB.TabIndex = 3;
+            this.txtB.TextChanged += new System.EventHandler(this.txtB_TextChanged);
             // 
             // txtC
             // 
@@ -91,6 +93,7 @@
             this.txtX1.ReadOnly = true;
             this.txtX1.Size = new System.Drawing.Size(140, 20);
             this.txtX1.TabIndex = 5;
+            this.txtX1.TextChanged += new System.EventHandler(this.txtX1_TextChanged);
             // 
             // txtX2
             // 
