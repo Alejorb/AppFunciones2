@@ -52,6 +52,12 @@
     <Compile Include="ConversorDeGrados.Designer.cs">
       <DependentUpon>ConversorDeGrados.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cuadrado_de_Num.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuadrado_de_Num.Designer.cs">
+      <DependentUpon>Cuadrado_de_Num.cs</DependentUpon>
+    </Compile>
     <Compile Include="frminicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ConversorDeGrados.resx">
       <DependentUpon>ConversorDeGrados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuadrado_de_Num.resx">
+      <DependentUpon>Cuadrado_de_Num.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frminicio.resx">
       <DependentUpon>frminicio.cs</DependentUpon>
