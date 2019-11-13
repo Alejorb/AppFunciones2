@@ -37,7 +37,7 @@ namespace AppFunciones2
             //declarar variable
             double p = 0;
             //calcular
-            p = (m*39.37)/12;
+            p = (m * 39.37) / 12;
             return p;
         }
 
@@ -47,7 +47,7 @@ namespace AppFunciones2
             //declarar variable
             double pl = 0;
             //calcular
-            pl = m*39.37 ;
+            pl = m * 39.37;
             return pl;
         }
         private void btmcalcular_Click(object sender, EventArgs e)
@@ -55,19 +55,29 @@ namespace AppFunciones2
             //llamar a las funciones pies y pulgadas
             double m = 0;
             //validar si el usuario a ingresado valores
-            if (this.txtMetros.Text.Length==0)
+            if (this.txtMetros.Text.Length == 0)
             {
                 MessageBox.Show("Por favor ingrese el valor que desea convertir... ");
                 this.txtMetros.Focus();//ubica el cursor en el cuadro
                 return;//abandonar
             }
-            m = Double.Parse(this.txtMetros.Text);
-            double p = pies(m);
-            double pl = pulgadas(m);
-            //asignar el valor de p a txtPies
-            this.txtPies.Text = p.ToString();
-            //asignar el valor pl a txtPulgadas
-            this.txtPulgadas.Text = pl.ToString();
+
+            try
+            {
+                m = Double.Parse(this.txtMetros.Text);
+
+                double p = pies(m);
+                double pl = pulgadas(m);
+                //asignar el valor de p a txtPies
+                this.txtPies.Text = p.ToString();
+                //asignar el valor pl a txtPulgadas
+                this.txtPulgadas.Text = pl.ToString();
+            }
+            catch (Exception ex1)
+            {
+                MessageBox.Show(ex1.Message.ToString());
+            }
+
         }
     }
 }

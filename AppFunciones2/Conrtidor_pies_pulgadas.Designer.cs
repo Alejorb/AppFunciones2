@@ -73,13 +73,16 @@
             // txtPies
             // 
             this.txtPies.Location = new System.Drawing.Point(205, 193);
+            this.txtPies.MaxLength = 10;
             this.txtPies.Name = "txtPies";
+            this.txtPies.ReadOnly = true;
             this.txtPies.Size = new System.Drawing.Size(188, 20);
             this.txtPies.TabIndex = 15;
             // 
             // txtMetros
             // 
             this.txtMetros.Location = new System.Drawing.Point(205, 83);
+            this.txtMetros.MaxLength = 10;
             this.txtMetros.Name = "txtMetros";
             this.txtMetros.Size = new System.Drawing.Size(188, 20);
             this.txtMetros.TabIndex = 14;
@@ -87,7 +90,9 @@
             // txtPulgadas
             // 
             this.txtPulgadas.Location = new System.Drawing.Point(205, 248);
+            this.txtPulgadas.MaxLength = 10;
             this.txtPulgadas.Name = "txtPulgadas";
+            this.txtPulgadas.ReadOnly = true;
             this.txtPulgadas.Size = new System.Drawing.Size(188, 20);
             this.txtPulgadas.TabIndex = 16;
             // 
@@ -105,9 +110,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(88, 193);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 13);
+            this.label2.Size = new System.Drawing.Size(71, 13);
             this.label2.TabIndex = 18;
-            this.label2.Text = "Pies";
+            this.label2.Text = "Metros a Pies";
             // 
             // label3
             // 
