@@ -47,7 +47,7 @@ namespace AppFunciones2
         private void btmcalcular_Click(object sender, EventArgs e)
         {
             //llamar a la función área
-            double a = 0, b = 0, c = 0;
+            double a = 0, b = 0, c = 0,result;
             //validar si el usuario a ingresado valores
             if (txtA.Text.Length==0)
             {
@@ -55,12 +55,55 @@ namespace AppFunciones2
                 this.txtA.Focus();//ubica el cursor en el cuadro
                 return;//abandonar
             }
-            a = Double.Parse(txtA.Text);
-            b = Double.Parse(txtB.Text);
-            c = Double.Parse(txtC.Text);
+            if (txtB.Text.Length == 0)
+            {
+                MessageBox.Show("Ingrese todos los datos");
+                this.txtB.Focus();//ubica el cursor en el cuadro
+                return;//abandonar
+            }
+            if (txtC.Text.Length == 0)
+            {
+                MessageBox.Show("Ingrese todos los datos");
+                this.txtC.Focus();//ubica el cursor en el cuadro
+                return;//abandonar
+            }
+
+            //a = Double.TryParse(this.txtA.Text.out);
+            if (Double.TryParse(this.txtA.Text, out result))
+                a = result;
+            else
+            {
+                MessageBox.Show("Debe ingresar valores numericos");
+                this.txtA.Focus();
+                return;
+            }
+
+            if(Double.TryParse(this.txtB.Text, out result))
+                b = result;
+            else
+            {
+                MessageBox.Show("Debe ingresar valores numericos");
+                this.txtB.Focus();
+                return;
+            }
+
+            if (Double.TryParse(this.txtC.Text, out result))
+                c = result;
+            else
+            {
+                MessageBox.Show("Debe ingresar valores numericos");
+                this.txtC.Focus();
+                return;
+            }
+
             double ar = area(a, b, c);
             //asigno el valor de ar a txtArea
             this.txtArea.Text = ar.ToString();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

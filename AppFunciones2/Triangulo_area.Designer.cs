@@ -39,6 +39,7 @@
             this.btmsalir = new System.Windows.Forms.Button();
             this.btmnuevo = new System.Windows.Forms.Button();
             this.btmcalcular = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtA
@@ -135,11 +136,22 @@
             this.btmcalcular.UseVisualStyleBackColor = true;
             this.btmcalcular.Click += new System.EventHandler(this.btmcalcular_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(190, 23);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(304, 13);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "2.13 ÁREA DE UN TRIANGULO CONOCIENDO LOS LADOS ";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
             // Triangulo_area
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.btmsalir);
             this.Controls.Add(this.btmnuevo);
             this.Controls.Add(this.btmcalcular);
@@ -171,5 +183,6 @@
         private System.Windows.Forms.Button btmsalir;
         private System.Windows.Forms.Button btmnuevo;
         private System.Windows.Forms.Button btmcalcular;
+        private System.Windows.Forms.Label label5;
     }
 }
