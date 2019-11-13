@@ -79,5 +79,10 @@ namespace AppFunciones2
             }
 
         }
+
+        private void Conrtidor_pies_pulgadas_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

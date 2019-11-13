@@ -76,6 +76,12 @@
     <Compile Include="Cuadrado_per_super.Designer.cs">
       <DependentUpon>Cuadrado_per_super.cs</DependentUpon>
     </Compile>
+    <Compile Include="Factorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Factorial.Designer.cs">
+      <DependentUpon>Factorial.cs</DependentUpon>
+    </Compile>
     <Compile Include="frminicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cuadrado_per_super.resx">
       <DependentUpon>Cuadrado_per_super.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Factorial.resx">
+      <DependentUpon>Factorial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frminicio.resx">
       <DependentUpon>frminicio.cs</DependentUpon>

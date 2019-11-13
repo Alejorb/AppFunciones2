@@ -151,6 +151,7 @@
             this.Controls.Add(this.btmcalcular);
             this.Name = "Conrtidor_pies_pulgadas";
             this.Text = "Conrtidor_pies_pulgadas";
+            this.Load += new System.EventHandler(this.Conrtidor_pies_pulgadas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
