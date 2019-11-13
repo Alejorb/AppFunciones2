@@ -19,6 +19,11 @@ namespace AppFunciones2
             Application.Run(new frminicio());
             Application.Run(new ConvertidorDeGrados());
             Application.Run(new Cuadrado_de_Num());
+            Application.Run(new Cilindro_Ar_Vo());
+            Application.Run(new Cuadrado_per_super());
+            Application.Run(new Rectangulo_per_super());
+            Application.Run(new Triangulo_area());
+            Application.Run(new Conrtidor_pies_pulgadas());
         }
     }
 }

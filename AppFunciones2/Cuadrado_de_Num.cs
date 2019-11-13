@@ -38,7 +38,7 @@ namespace AppFunciones2
             }
             num = Double.Parse(this.txtnum.Text);
             double ncd = cuadrado(num);
-            //asigno el calor de cd a txtnumCuadrado
+            //asigno el valor de cd a txtnumCuadrado
             this.txtnumCuadrado.Text = ncd.ToString();
         }
 

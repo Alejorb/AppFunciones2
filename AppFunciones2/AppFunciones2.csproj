@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cilindro_Ar_Vo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cilindro_Ar_Vo.Designer.cs">
+      <DependentUpon>Cilindro_Ar_Vo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conrtidor_pies_pulgadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conrtidor_pies_pulgadas.Designer.cs">
+      <DependentUpon>Conrtidor_pies_pulgadas.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConversorDeGrados.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +70,12 @@
     <Compile Include="Cuadrado_de_Num.Designer.cs">
       <DependentUpon>Cuadrado_de_Num.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cuadrado_per_super.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuadrado_per_super.Designer.cs">
+      <DependentUpon>Cuadrado_per_super.cs</DependentUpon>
+    </Compile>
     <Compile Include="frminicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,11 +84,32 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rectangulo_per_super.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rectangulo_per_super.Designer.cs">
+      <DependentUpon>Rectangulo_per_super.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Triangulo_area.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Triangulo_area.Designer.cs">
+      <DependentUpon>Triangulo_area.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Cilindro_Ar_Vo.resx">
+      <DependentUpon>Cilindro_Ar_Vo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Conrtidor_pies_pulgadas.resx">
+      <DependentUpon>Conrtidor_pies_pulgadas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConversorDeGrados.resx">
       <DependentUpon>ConversorDeGrados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cuadrado_de_Num.resx">
       <DependentUpon>Cuadrado_de_Num.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuadrado_per_super.resx">
+      <DependentUpon>Cuadrado_per_super.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frminicio.resx">
       <DependentUpon>frminicio.cs</DependentUpon>
@@ -84,6 +123,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Rectangulo_per_super.resx">
+      <DependentUpon>Rectangulo_per_super.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Triangulo_area.resx">
+      <DependentUpon>Triangulo_area.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -122,7 +122,6 @@ namespace AppFunciones2
             //asigno el resultado de x1 en  el textbox txtX1
             this.txtX1.Text = x1.ToString();
             this.txtX2.Text = x2.ToString();
-
         }
 
         private void btmSalir_Click(object sender, EventArgs e)
