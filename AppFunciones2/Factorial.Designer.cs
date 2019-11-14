@@ -55,6 +55,7 @@
             this.btmnuevo.TabIndex = 15;
             this.btmnuevo.Text = "Nuevo";
             this.btmnuevo.UseVisualStyleBackColor = true;
+            this.btmnuevo.Click += new System.EventHandler(this.btmnuevo_Click);
             // 
             // btmcalcular
             // 

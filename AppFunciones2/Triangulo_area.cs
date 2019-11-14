@@ -55,12 +55,14 @@ namespace AppFunciones2
                 this.txtA.Focus();//ubica el cursor en el cuadro
                 return;//abandonar
             }
+
             if (txtB.Text.Length == 0)
             {
                 MessageBox.Show("Ingrese todos los datos");
                 this.txtB.Focus();//ubica el cursor en el cuadro
                 return;//abandonar
             }
+
             if (txtC.Text.Length == 0)
             {
                 MessageBox.Show("Ingrese todos los datos");
@@ -68,7 +70,7 @@ namespace AppFunciones2
                 return;//abandonar
             }
 
-            //a = Double.TryParse(this.txtA.Text.out);
+            
             if (Double.TryParse(this.txtA.Text, out result))
                 a = result;
             else

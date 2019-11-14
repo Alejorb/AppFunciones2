@@ -23,7 +23,8 @@ namespace AppFunciones2
             //Application.Run(new Cuadrado_per_super());
             //Application.Run(new Rectangulo_per_super());
             //Application.Run(new Triangulo_area());
-            Application.Run(new Conrtidor_pies_pulgadas());
+            //Application.Run(new Conrtidor_pies_pulgadas());
+            Application.Run(new Factorial());
         }
     }
 }
